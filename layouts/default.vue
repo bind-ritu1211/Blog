@@ -1,7 +1,7 @@
 <template>
   <div>
   <div class="v-app--wrap">
-    <div :class="{ scrolling: isScrolling }" class="v-navbar">
+    <div class="v-navbar">
       <div class="v-navbar__content">
         <div class="v-navbar__logo" style="width: 60px; height: auto; margin:18px">
           <a href="/">
@@ -13,7 +13,9 @@
           <ul class="v-navbar__links-items">
             <div class="m2">
             <li> 
+              <nuxt-link to="/write">
             <a href="/"><img src="~/static/img/Vector.svg"  class="img-fluid" alt="Blog"></a>
+            </nuxt-link>
             </li>
             <li>
             <a href="/"><img src="~/static/img/facebook.svg"  class="img-fluid" alt="Blog"></a>
